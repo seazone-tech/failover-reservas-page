@@ -1,0 +1,55 @@
+@import url('./main/index.css');
+@import url('./header/index.css');
+
+:root {
+  --sm: clamp(0.875rem, 1vw, 1rem);
+  --md: clamp(1rem, -0.875rem, 3.5rem);
+  --lg: clamp(1.25rem, 1vw, 1.5rem);
+  --xl: clamp(1.5rem, 1vw, 1.75rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s all ease;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: var(--md);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:active {
+  transform: scale(0.90);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}

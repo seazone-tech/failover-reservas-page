@@ -1,0 +1,20 @@
+.wpp-btn {
+  display: flex;
+  padding: 16px;
+  min-width: 190px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 75px;
+  background: #00143D;
+  color: #FAFAFA;
+  color: var(--Gray-4, #FAFAFA);
+  font-size: var(--sm);
+  font-style: normal;
+  line-height: 16px;
+  margin: 0 auto;
+}
+
+.wpp-btn-container {
+  margin-top: 22px;
+}
